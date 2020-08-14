@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Freelancer - Start Bootstrap Theme</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand js-scroll-trigger" href="#page-top">김명우 포트폴리오</a>
+                <button class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">Portfolio</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">About Me</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">My Skill</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Masthead-->
+        <header class="masthead bg-primary text-white text-center">
+            <div class="container d-flex align-items-center flex-column">
+                <!-- Masthead Avatar Image-->
+                <img class="masthead-avatar mb-5" src="assets/img/mw.jpg" alt="" />
+                <!-- Masthead Heading-->
+                <h1 class="masthead-heading text-uppercase mb-0">김명우 포트폴리오</h1>
+                <!-- Icon Divider-->
+                <div class="divider-custom divider-light">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- Masthead Subheading-->
+                <p class="masthead-subheading font-weight-light mb-0">Web Programmer</p>
+                <br>
+                <p class="masthead-subheading font-weight-light mb-0">프론트 엔드를 꿈꾸고, 더 나아가 풀스택 개발자까지</p>
+            </div>
+        </header>
+        <!-- Portfolio Section-->
+        <section class="page-section portfolio" id="portfolio">
+            <div class="container">
+                <!-- Portfolio Section Heading-->
+                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Portfolio</h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- Portfolio Grid Items-->
+                <div class="row">
+                    <!-- Portfolio Item 1-->
+                    <div class="col-md-6 col-lg-4 mb-5" onclick="OpenTitanSouls()">
+                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal1">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white">타이탄 소울즈 모작</div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/TitanSouls.png" alt="" />
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 2-->
+                    <div class="col-md-6 col-lg-4 mb-5" onclick="OpenSnake()">
+                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal2">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white">런 스네이크테일 자작게임</div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/RunSankeTail.png" alt="" />
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 3-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal3">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white">게시판 웹 애플리케이션</div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/board.png" alt="" />
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 4-->
+                    <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
+                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal4">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white">운동기록 웹 애플리케이션</div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/WorkoutisGood.png" alt="" />
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 5-->
+                    <!-- <div class="col-md-6 col-lg-4 mb-5 mb-md-0">
+                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal5">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/safe.png" alt="" />
+                        </div>
+                    </div> -->
+                    <!-- Portfolio Item 6-->
+                    <!-- <div class="col-md-6 col-lg-4">
+                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal6">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/submarine.png" alt="" />
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </section>
+        <!-- About Section-->
+        <section class="page-section bg-primary text-white mb-0" id="about">
+            <div class="container">
+                <!-- About Section Heading-->
+                <h2 class="page-section-heading text-center text-uppercase text-white">About Me</h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom divider-light">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- About Section Content-->
+                <div class="row">
+              <p class="lead">학원에서 게임 프로그래밍으로 코딩을 배움으로써 코딩으로 구현하는 재미를 알았습니다. 처음 게임을 만들기 시작할 때 구현 불가능해 보이는 것들이 하나씩 완성되면서 쉽게 포기하지 않으면 만들 수 있구나, 내 머릿속에 있는 걸 코드로 짜내서 구현이 가능하다는  걸 느꼈고 코드가 입력될 때마다 앞에 보이는 것들이 살아있는 느낌이 드는 것 또한 좋았습니다. 무엇보다 완성할 때의 그 성취감은 엄청나게 중독적이었습니다.<br>
+                <br>
+                그래서 새로 웹 프로그래밍을 시작할 땐 일단 거부감이 없었습니다. 그 이유는 c++로 게임을 만들어보면서 객체지향에 익숙했기에 자바를 금방 익혔고 결과물을 만들고 싶어 스프링과 HTML Javascript를 익혀 간단한 게시판과 운동을 기록하는 웹 애플리케이션을 만들어냈습니다. 혼자 만들 때의 막막함과 어려움은 항상 있었지만, 책상에 앉아서 알고리즘을 생각해내는 것이 재미있었고 무엇을 처음 배우고 시작할 때 앞선 결과물들이 있기에 집중한다면 언젠간 해결할 수 있다는 생각이 있어 항상 자신이 있습니다.<br>
+                <br>
+                그렇다고 항상 책상에만 앉아서 끙끙거리며 힘들어하는 게 아닙니다. 자기 관리를 좋아하기 때문에 운동을 좋아하고 10년 가까이 꾸준히 해왔습니다. 그래서 머릿속이 복잡해질 때면 운동으로 에너지를 써왔습니다. 이렇듯 저는 항상 긍정적이고 활력이 넘칩니다. 그렇기에 새로운 것들을 접할 때 그다지 어렵지 않았습니다. 게임 프로그래밍에서 웹 프로그래밍으로 넘어갈 때도 불편함이나 두려움 같은 건 없었습니다. 새로운 것은 저에게 도전이자 다른 방향으로 나아가는 또 다른 인생의 이정표라고 생각하기 때문에 항상 재밌습니다. 이와 똑같이 새로운 장소, 새로운 사람을 만날 때도 항상 흥미롭고 약간의 긴장감과 어색함이 탐험을 하는  것 같아 좋습니다. 저는 모험을 좋아합니다. 새로운 장소, 그곳에서의 만남과 배움, 그리고 이 모든 게 저를 어제와 또 다른 저로 만들어줄 것이라고 생각하기에  도전하고 싶습니다.</p>
+               <br>
+               <p class="lead"><span style="font-size: 30px; ">읽어주셔서 감사합니다!</span></p>
+            </div>
+            </div>
+        </section>
+        <!-- Contact Section-->
+        <section class="page-section" id="contact">
+            <div class="container">
+                <!-- Contact Section Heading-->
+                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">사용하는 기술(계속 배우고,추가할것)</h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- Contact Section Form-->
+
+                <div class="row">
+                    <div class="col-sm-3 col-md-4">
+                      <div class="thumbnail">
+                        <img src="assets/img/jquery.png" alt="..." class="img-thumbnail">
+                        <div class="caption">
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 70%;text-align: right; font-size: 15px;">
+                                    <span>Exp</span>
+                                </div>
+                              </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-3 col-md-4">
+                        <div class="thumbnail">
+                            <img src="assets/img/java.png" alt="..." class="img-thumbnail">
+                          <div class="caption">
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;text-align: right; font-size: 15px;">
+                                    <span>Exp</span>
+                                </div>
+                              </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-sm-3 col-md-4">
+                        <div class="thumbnail">
+                            <img src="assets/img/springboot.png" alt="..." class="img-thumbnail">
+                          <div class="caption">
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%; text-align: right;font-size: 15px;"> 
+                                  <span>Exp</span>
+                                </div>
+                              </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-sm-3 col-md-4">
+                        <div class="thumbnail">
+                            <img src="assets/img/html_css_Js.png" alt="..." class="img-thumbnail">
+                          <div class="caption">
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%; text-align: right;font-size: 15px;"> 
+                                  <span>Exp</span>
+                                </div>
+                              </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+                <br>
+                <br>
+                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">관심있는 기술</h2>
+                <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                
+                <div class="row">
+                    <div class="col-sm-3 col-md-4">
+                      <div class="thumbnail">
+                        <img src="assets/img/react.png" alt="..." class="img-thumbnail">
+                        <div class="caption">
+                            <div class="progress">
+                              </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-3 col-md-4">
+                        <div class="thumbnail">
+                            <img src="assets/img/ms_sql.png" alt="..." class="img-thumbnail">
+                          <div class="caption">
+                            <div class="progress">
+                              </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-sm-3 col-md-4">
+                        <div class="thumbnail">
+                            <img src="assets/img/bootstrap.png" alt="..." class="img-thumbnail">
+                          <div class="caption">
+                            <div class="progress">
+                              </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+        </section>
+        <!-- Footer-->
+        <footer class="footer text-center">
+            <div class="container">
+                <div class="row">
+                    <!-- Footer Location-->
+                    <div class="col-lg-4 mb-5 mb-lg-0">
+                        <h4 class="text-uppercase mb-4">Location</h4>
+                        <p class="lead mb-0">
+                            2215 John Daniel Drive
+                            <br />
+                            Clark, MO 65243
+                        </p>
+                    </div>
+                    <!-- Footer Social Icons-->
+                    <div class="col-lg-4 mb-5 mb-lg-0">
+                        <h4 class="text-uppercase mb-4">Around the Web</h4>
+                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-twitter"></i></a>
+                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-linkedin-in"></i></a>
+                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-dribbble"></i></a>
+                    </div>
+                    <!-- Footer About Text-->
+                    <div class="col-lg-4">
+                        <h4 class="text-uppercase mb-4">About Freelancer</h4>
+                        <p class="lead mb-0">
+                            Freelance is a free to use, MIT licensed Bootstrap theme created by
+                            <a href="http://startbootstrap.com">Start Bootstrap</a>
+                            .
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Copyright Section-->
+        <div class="copyright py-4 text-center text-white">
+            <div class="container"><small>Copyright © Your Website 2020</small></div>
+        </div>
+        <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes)-->
+        <div class="scroll-to-top d-lg-none position-fixed">
+            <a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top"><i class="fa fa-chevron-up"></i></a>
+        </div>
+        <!-- Portfolio Modals-->
+        <!-- Portfolio Modal 1-->
+        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-labelledby="portfolioModal1Label" aria-hidden="true"  >
+            <div class="modal-dialog modal-xl" role="document">
+                <div class="modal-content" >
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close" onclick="ClosesTitanSouls()">
+                        <span aria-hidden="true"><i class="fas fa-times"></i></span>
+                    </button>
+                    <div class="modal-body text-center">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModal1Label">TitanSouls 모작</h2>
+                        
+                                    <div class='embed-container' id="TitanSouls_PopUp"><iframe src='https://www.youtube.com/embed/BQup5PkJj4U' frameborder='0' allowfullscreen></iframe></div>
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-5" style="font-size: 20px;">어떠한 프레임워크 없이 순수 C++과 다이렉트x로 만들었으며,수학적으로는 벡터를 주로 활용해서 만들었습니다</p>
+                                    <button class="btn btn-primary" data-dismiss="modal">
+                                        <i class="fas fa-times fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio Modal 2-->
+        <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-labelledby="portfolioModal2Label" aria-hidden="true">
+            <div class="modal-dialog modal-xl" role="document">
+                <div class="modal-content">
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close" onclick="ClosesSnake()">
+                        <span aria-hidden="true"><i class="fas fa-times"></i></span>
+                    </button>
+                    <div class="modal-body text-center">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModal2Label">런 스테이크테일 자작게임</h2>
+                              
+            
+                                    <div class='embed-container' id="Snake_PopUp"><iframe src='https://www.youtube.com/embed/8NSEtMTgD80' frameborder='0' allowfullscreen></iframe></div>
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-5" style="font-size: 20px;">엔진 유니티 3d를 통해서 만든 간단한 자작게임 입니다</p>
+                                    <button class="btn btn-primary" data-dismiss="modal">
+                                        <i class="fas fa-times fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio Modal 3-->
+        <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-labelledby="portfolioModal3Label" aria-hidden="true">
+            <div class="modal-dialog modal-xl" role="document">
+                <div class="modal-content">
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true"><i class="fas fa-times"></i></span>
+                    </button>
+                    <div class="modal-body text-center">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModal3Label">게시판 웹 애플리케이션</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom" style="font-size: 20px;">
+                                        aws 주소: 
+                                       <a href="http://ec2-54-180-27-124.ap-northeast-2.compute.amazonaws.com:8080/" target="_blank">클릭하면 이동합니다</a>
+                                      </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/board.png" alt="" />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-5" style="font-size: 20px;">스프링부트로 개발했으며 뷰는 HTML,CSS,JavaScript,타임리프를 썼으며, DB는 postgres를 활용했습니다
+                                    검색,삭제,수정,글쓰기 기능이 있으며, RestFul하게 만들어보려했습니다</p>
+                                    <button class="btn btn-primary" data-dismiss="modal">
+                                        <i class="fas fa-times fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio Modal 4-->
+        <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-labelledby="portfolioModal4Label" aria-hidden="true">
+            <div class="modal-dialog modal-xl" role="document">
+                <div class="modal-content">
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true"><i class="fas fa-times"></i></span>
+                    </button>
+                    <div class="modal-body text-center">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModal4Label">운동기록 웹 애플리케이션</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom" style="font-size: 20px;">
+                                      aws 주소: 
+                                     <a href="http://ec2-3-34-231-231.ap-northeast-2.compute.amazonaws.com:8080/" target="_blank">클릭하면 이동합니다</a>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/WorkoutisGood.png" alt="" />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-5" style="font-size: 20px;">스프링부트로 개발했으며 뷰는 HTML,CSS,JavaScript,jquery,ajax,타임리프를 썼으며, DB는 postgres를 활용했습니다 
+                                    Json파일을 통한 데이터 배치,aJax를 활용하여 만들어 봤습니다  </p>
+                                    <button class="btn btn-primary" data-dismiss="modal">
+                                        <i class="fas fa-times fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio Modal 5-->
+        <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-labelledby="portfolioModal5Label" aria-hidden="true">
+            <div class="modal-dialog modal-xl" role="document">
+                <div class="modal-content">
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true"><i class="fas fa-times"></i></span>
+                    </button>
+                    <div class="modal-body text-center">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModal5Label">Locked Safe</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/safe.png" alt="" />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                    <button class="btn btn-primary" data-dismiss="modal">
+                                        <i class="fas fa-times fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio Modal 6-->
+        <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-labelledby="portfolioModal6Label" aria-hidden="true">
+            <div class="modal-dialog modal-xl" role="document">
+                <div class="modal-content">
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true"><i class="fas fa-times"></i></span>
+                    </button>
+                    <div class="modal-body text-center">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModal6Label">Submarine</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/submarine.png" alt="" />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                    <button class="btn btn-primary" data-dismiss="modal">
+                                        <i class="fas fa-times fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
+        <!-- Third party plugin JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+        <!-- Contact form JS-->
+        <script src="assets/mail/jqBootstrapValidation.js"></script>
+        <script src="assets/mail/contact_me.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
